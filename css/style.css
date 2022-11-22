@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+body{
+	font-family: "Lato", sans-serif;
+	line-height: 160%;
+	color: #424551;
+}
+
+[class*="__container"] {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+    display: flex;
+	flex-direction: column;
+}
+
+.page__container {
+    padding: 50px 0px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.block {
+    background-color: gainsboro;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.block__item {
+    background-color: palevioletred;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px;
+    border: 1px solid cornflowerblue;
+}
+
+.block--wrap {
+    width: 270px;
+    flex-wrap: wrap;
+}
+
+.block--justify {
+    justify-content: center;
+}
+
+.block--around {
+    justify-content: space-around;
+}
+
+.block--between {
+    justify-content: space-between;
+}
+
+.block--evently {
+    justify-content: space-evenly;
+}
+
+.block--align {
+    height: 100px;
+    align-items: center;
+}
+
+.block--direction {
+    flex-direction: column;
+} 
+
+.block--self {
+    height: 100px;
+    align-items: center;
+}
+
+.block__item--self {
+    align-self: flex-start;
+}
+
+.block__item--column {
+    flex: 1 1 25%;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards__column {
+    flex: 1 1 25%;
+    padding: 0px 10px;
+}
+
+.cards__card {
+    background-color: lightgray;
+    padding: 15px;
+    min-height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.card__image img {
+    max-width: 100%;
+}
+
+.card__text {
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+.card__button {
+    background-color: cadetblue;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+}
